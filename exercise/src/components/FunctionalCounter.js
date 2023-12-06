@@ -18,6 +18,7 @@ const FunctionalCounter = () => {
 
   return (
     <div>
+      <h3>Functional Component Eaxample: Counter</h3>
       <p>Count: {count}</p>
       <button className="btn btn-dark mt-2" onClick={handleIncrease}>Increase</button>
       <button className="btn btn-dark mt-2" onClick={handleDecrease}>Decrease</button>

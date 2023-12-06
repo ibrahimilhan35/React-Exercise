@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "email": "john@example.com",
+      "image": "logo192.png"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "age": 25,
+      "email": "jane@example.com",
+      "image": "logo512.png"
+    },
+    {
+      "id": 3,
+      "name": "Bob Smith",
+      "age": 40,
+      "email": "bob@example.com",
+      "image": "logo192.png"
+    }
+  ]
+  
