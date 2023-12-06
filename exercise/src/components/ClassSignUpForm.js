@@ -27,8 +27,8 @@ class SignUp extends Component {
     const { firstName, lastName, email, password } = this.state;
 
     return (
-      <div>
-        <h2>Create Your Account</h2>
+      <div className="SignUpForm mt-4">
+        <h1>Create Your Account</h1>
         <form onSubmit={this.handleSubmit}>
           <div>
             <label htmlFor="firstName">First Name:</label>
@@ -94,7 +94,7 @@ class SignUp extends Component {
               )}
           </div>
           <div>
-            <button type="submit">Sign Up</button>
+            <button type="submit" className="btn btn-dark mt-2 mb-2">Sign Up</button>
           </div>
         </form>
       </div>

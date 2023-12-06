@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './Contact.css';
+import React, { useState } from "react";
+import "../Contact.css";
 
 function ContactForm() {
   const [isFormVisible, setFormVisibility] = useState(false);

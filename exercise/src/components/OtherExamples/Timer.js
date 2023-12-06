@@ -1,8 +1,7 @@
 // Timer.js
 
-import React from 'react';
-import './Timer.css';
-import { startCountdown } from './countdownScript';
+import React from "react";
+import { startCountdown } from "./countdownScript";
 
 function Timer() {
     useEffect(() => {
