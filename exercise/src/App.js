@@ -10,12 +10,16 @@ import CardList from "./components/CardList";
 import jsonData from "./components/data.json";
 import ColorButtonA from "./components/Week-8/ColorButtonA";
 import ColorButtonB from "./components/Week-8/ColorButtonB";
+import RequestTracker from "./components/RequestTracker";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <section className="container container-odd">
+      <section className="container">
+        <RequestTracker />
+      </section>
+      <section className="container">
         <h1>Pure and Higher-Order Components</h1>
         <ColorButtonA />
         <ColorButtonB />
