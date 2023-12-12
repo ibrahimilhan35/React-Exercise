@@ -1,0 +1,14 @@
+.app {
+    transition: background-color 0.5s ease;
+    padding: 20px;
+  }
+  
+.light {
+    background-color: #fff;
+  }
+  
+.dark {
+    background-color: #333;
+    color: #fff; /* Change text color for better visibility */
+  }
+  
